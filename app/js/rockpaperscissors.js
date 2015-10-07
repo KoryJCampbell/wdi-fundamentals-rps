@@ -81,12 +81,16 @@ function playToFive() {
         } else if (winner === "computer") {
             computerWins += 1;
             console.log("Computer wins");
-        } else {
-            
         }
 
     console.log("Player chose " + playerMove + " while Computer chose " + computerMove);
     console.log("The score is currently " + playerWins + " to " + computerWins + "\n");
+    }
+
+    if (playerWins = 5) {
+        console.log("Player wins game!");
+    } else if (computerWins = 5) {
+        console.log("Computer wins game!");
     }
     
 
